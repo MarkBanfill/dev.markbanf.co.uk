@@ -1,0 +1,127 @@
+/*
+ Theme Name:   Storefront Child
+ Theme URI:    http://dev.markbanf.co.uk/storefront-child/
+ Description:  Storefront Child Theme
+ Author:       Mark Banfill
+ Author URI:   http://www.markbanf.co.uk
+ Template:     storefront
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  storefront-child
+*/
+
+body {
+  font-family: "Open Sans",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-weight: 300;
+}
+
+header.site-header {
+  position: fixed;
+  width: 100%;
+}
+
+div.site-header {
+  visibility: hidden;
+}
+
+.site-branding .site-title {
+  font-family: 'Parisienne', cursive;
+  font-size: 3em;
+}
+
+.site-branding .site-title a {
+  font-weight: normal;
+}
+
+.site-branding .site-description {
+	font-size: .875em;
+	display: block;
+}
+
+.storefront-secondary-navigation.woocommerce-active .site-header .site-branding {
+  margin-bottom: 0;
+}
+
+.site-header-cart .cart-contents {
+  padding-top: 0;
+}
+
+.storefront-secondary-navigation.woocommerce-active .site-header .site-branding {
+  width: 34.782608696%;
+  float: left;
+  margin-right: 4.347826087%
+}
+.storefront-secondary-navigation.woocommerce-active .site-header .secondary-navigation {
+  width: 34.782608696%;
+  float: left;
+  margin-right: 4.347826087%
+}
+
+
+.contactform h2 {
+    text-align: center;
+}
+
+.contactform input,
+.contactform textarea {
+    width: 100%;
+	margin-bottom: 1em;
+}
+
+.contactform input:focus,
+.contactform textarea:focus {
+    color: #333;
+}
+
+.contactform textarea {
+    height: 20vh;
+}
+
+.contactform p {
+    text-align: center;
+}
+
+.contactform p input {
+    width: auto;
+}
+
+a.button {
+	width: auto;
+	display: inline-block;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+a.button:hover {
+	text-decoration: none;
+}
+
+.thanks {
+	height: 500px;
+	height: 100vh;
+	background: linear-gradient(to bottom, #001729 0%, #0f394b 100%);
+	background-color: #0f394b;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+
+@media (max-width:960px) {
+  .site-branding .site-title {
+    font-family: 'Parisienne', cursive;
+    font-size: 2.4em;
+  }
+}
+
+@media (max-width:768px) {
+  .storefront-secondary-navigation.woocommerce-active .site-header .site-branding {
+    width: 65%;
+  }
+  .site-branding .site-title {
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+  }
+}
